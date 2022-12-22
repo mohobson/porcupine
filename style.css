@@ -3,7 +3,12 @@ body {
     flex-direction: column;
     flex-grow: 0;
     background-color: blanchedalmond;
-    gap: 10px;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }
 
 .gif {
@@ -13,5 +18,7 @@ body {
 
 .pics {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 8px;
 }
