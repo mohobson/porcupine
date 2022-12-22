@@ -1,3 +1,7 @@
+body {
+    background-color: bisque;
+}
+
 p {
     display: flex;
     justify-content: center;
