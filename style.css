@@ -1,13 +1,17 @@
 body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
     background-color: blanchedalmond;
+    gap: 10px;
 }
 
-p {
+.gif {
     display: flex;
     justify-content: center;
 }
 
-div {
+.pics {
     display: flex;
     flex-wrap: wrap;
 }
